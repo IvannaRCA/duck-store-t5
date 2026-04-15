@@ -1,0 +1,24 @@
+# VS Code
+.vscode/
+
+# Sistema operativo - Mac
+.DS_Store
+
+# Sistema operativo - Linux
+*~
+.directory
+
+# Sistema operativo - Windows
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Jekyll (GitHub Pages)
+_site/
+.jekyll-cache/
+
+# npm / Node
+node_modules/
