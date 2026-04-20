@@ -22,3 +22,6 @@ _site/
 
 # npm / Node
 node_modules/
+
+# obsidian
+.obsidian/
