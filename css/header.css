@@ -33,3 +33,11 @@ header {
 .navigation-bar__link:nth-child(1) {
     margin-right: auto;
 }
+
+/* FONTS */
+.internal-link {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
