@@ -12,15 +12,21 @@ Creación de una página web de una tienda de patitos (DuckStore) en HTML5 y CSS
 
 ### Planificación y normas
 Estructura de carpetas del proyecto:
-- assets -> images
+- assets -> icon
 - css
 - pages
 
 Nomenclatura de archivos en kebab-case:
 - nombre-archivo.extension
 
+Nomenclatura de classes para CSS:
+- [BEM Naming](https://getbem.com/naming/)
+
 Metodología:
 - SCRUM con Jira
+
+### User flow
+![[user-flow.jpg]]
 
 ### Wireframes y Prototipos
 Enlace a los wireframes de las páginas realizados en Figma:
