@@ -4,7 +4,8 @@
     align-items: flex-start;
     justify-self: center;
     max-width: 80%;
-    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 2rem;
 }
 
