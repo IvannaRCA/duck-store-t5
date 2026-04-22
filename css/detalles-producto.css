@@ -24,7 +24,6 @@
 }
 
 .product-content__tittle {
-    font-family: ;
     font-size: 60px;
     margin-bottom: 0;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -37,6 +36,7 @@
     margin-right: 1rem;
     margin-bottom: 1.5rem;
     vertical-align: middle;
+    font-size: 30px;
     color: #776300;
 }
 
@@ -55,7 +55,6 @@
 .product-content__details {
     background-color: #fffae1;
     padding: 1rem;
-    border-radius: 8px;
     margin-top: 2rem;
     border-radius: 10px;
 }
@@ -77,7 +76,33 @@
     border-bottom: none;
 }
 
+.details-list__label {
+    font-size: medium 14px;
+    color: #6B662F;
+}
 
 .details-list__value {
     text-align: right;
+    font-size: medium 14px;
+    color: #3D3905;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+    }
+
+    .product__image {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+    }
+
+    .product-content__tittle {
+        font-size: 42px;
+    }
+
+    .product-content__price {
+        font-size: 24px;
+    }
 }
