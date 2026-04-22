@@ -3,17 +3,20 @@
     gap: 2rem;
     align-items: flex-start;
     justify-self: center;
-    max-width: 80%;
+    max-width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 2rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #776300;
 }
 
 .product__image {
     width: 50%;
     min-width: 20%;
-    max-width: 200%;
+    max-width: 40%;
     height: auto;
+    margin-right: 5rem;
 }
 
 .product__content {
@@ -21,29 +24,39 @@
 }
 
 .product-content__tittle {
-    font-size: 42px;
+    font-family: ;
+    font-size: 60px;
     margin-bottom: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #221b00;
 }
 
 .product-content__price {
     display: inline-block;
+    margin-top: 0.5rem;
     margin-right: 1rem;
+    margin-bottom: 1.5rem;
     vertical-align: middle;
+    color: #776300;
 }
 
 .product-content__stock {
     vertical-align: middle;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .product-content__description-tittle {
     font-size: 18px;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
 }
 
 .product-content__details {
     background-color: #fffae1;
     padding: 1rem;
     border-radius: 8px;
-    margin-top: 1rem;
+    margin-top: 2rem;
     border-radius: 10px;
 }
 
