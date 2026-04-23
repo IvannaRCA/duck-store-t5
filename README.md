@@ -19,10 +19,13 @@ Es un proyecto desarrollado con metodología SCRUM que abarca todo el proceso de
 - Obsidian
 
 ### Metodología de trabajo
-**SCRUM** con Jira
-- Product Owner
-- Scrum master
-- Equipo de desarrollo
+**SCRUM** con Jira.
+- Product Owner - Laura Benito
+- Scrum master - Ivanna Caraccio
+- Equipo de desarrollo:
+    - Laura Benito
+    - Ivanna Caraccio
+    - Johanna Monroy
 
 
 ### Planificación
@@ -37,7 +40,7 @@ Es un proyecto desarrollado con metodología SCRUM que abarca todo el proceso de
 - [Diseño: wireframes y prototipos](https://www.figma.com/design/XGA63s7gtHix1H2zbe8jl1/DuckStore?node-id=48-12)
 - [Flujo de navegación entre páginas](https://www.figma.com/proto/XGA63s7gtHix1H2zbe8jl1/DuckStore?node-id=118-87&p=f&t=902s2Cek0uql4nHT-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=118%3A87)
 
-![Prototypes](assets\screenshots\prototypes.jpg)
+![Prototypes](assets/screenshots/prototypes.jpg)
 
 
 ### User flow
