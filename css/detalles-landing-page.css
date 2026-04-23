@@ -57,23 +57,27 @@ h1 {
   line-height: 1.15;
   margin-bottom: 1.25rem;
   font-family: "Plus Jakarta Sans", sans-serif;
+  
 }
 
 h1 .h1-top {
-  color: var(--color-green);
+  color: #3d4507;
 }
 
 h1 .h1-flotar {
-  color: var(--color-red);
+ color: #24280d;
+ font-style: italic;
 }
 
 h2 {
   font-size: clamp(1.2rem, 2.5vw, 1.75rem);
   line-height: 1.3;
   font-family: "Plus Jakarta Sans", sans-serif;
-  color: #221b00;
+  color: #77610a;
   font-style: italic;
 }
+
+
 
 /* =============================================
    HERO — imagen + article lado a lado
@@ -138,6 +142,8 @@ h2 {
   letter-spacing: 0.03em;
   transition: background-color 0.2s ease, transform 0.15s ease;
   margin-top: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .btn-gallery:hover {
@@ -148,6 +154,7 @@ h2 {
 .btn-gallery:active {
   transform: translateY(0);
 }
+
 
 /* =============================================
    RESPONSIVE
