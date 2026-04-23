@@ -91,12 +91,15 @@ main {
 .foto-producto {
     width: 10rem;
     height: auto;
+}
+
+.foto-producto-recommended {
     border-radius: 3rem;
 }
 
 /* FONTS */
 .catologo-texts__title,
-.item-name, .catalogo-item__enlace-detalle:active, 
+.item-name, .item-name:visited, .catalogo-item__enlace-detalle:active, 
 .catalogo-item__enlace-detalle:visited {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
@@ -104,6 +107,7 @@ main {
     font-style: normal;
     color: #3D3905;
 }
+
 
 .catalogo-texts__description {
     width: 80vw;
