@@ -1,0 +1,136 @@
+/* =============================================
+   VARIABLES GLOBALES
+   ============================================= */
+:root {
+  --color-text: #333912;
+  --color-accent: #FFD600;
+  --color-accent-hover: #f0c800;
+  --page-padding: clamp(1.5rem, 6vw, 5rem);
+  --gap-section: 5rem;
+  --gap-hero: 3rem;
+  --border-radius-btn: 50px;
+  --border-radius-img: 12px;
+}
+
+/* =============================================
+   RESET Y BASE
+   ============================================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+/* =============================================
+   TIPOGRAFÍA — todo el landing en #7E79FF
+   ============================================= */
+h1, h2, h3, h4, h5, h6,
+p, li, span, a, label, button {
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  line-height: 1.3;
+}
+
+/* =============================================
+   HERO — imagen + article lado a lado
+   ============================================= */
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-hero);
+  padding: var(--gap-section) var(--page-padding);
+}
+
+.hero .responsive-img {
+  width: 42%;
+  max-width: 480px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: var(--border-radius-img);
+  display: block;
+}
+
+.hero .product-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero .product-info p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* =============================================
+   CTA-MEMBERSHIP — columna centrada
+   ============================================= */
+.cta-membership {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding: var(--gap-section) var(--page-padding);
+}
+
+.cta-membership p {
+  max-width: 580px;
+  font-size: 1.05rem;
+}
+
+/* =============================================
+   BOTÓN .btn-gallery — amarillo, redondeado
+   ============================================= */
+.btn-gallery {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: #1a1a1a;         /* contraste sobre amarillo */
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.8rem 2.25rem;
+  border: none;
+  border-radius: var(--border-radius-btn);
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  margin-top: 0.5rem;
+}
+
+.btn-gallery:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+}
+
+.btn-gallery:active {
+  transform: translateY(0);
+}
+
+/* =============================================
+   RESPONSIVE
+   ============================================= */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero .responsive-img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
