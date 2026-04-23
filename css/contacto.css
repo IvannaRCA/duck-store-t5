@@ -118,3 +118,27 @@
     color: #221b00;
     font-weight: 600;
 }
+
+
+/* =============================================
+   RESPONSIVE
+   ============================================= */
+@media (max-width: 768px) {
+  .contact__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-optical-sizing: auto;
+  }
+  .list__content {
+    text-align: center;
+  }
+  
+}
