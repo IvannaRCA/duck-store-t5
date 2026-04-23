@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="header__navigation-bar">
+            <li class="navigation-bar__link"><a href="/index.html" class="logo-link"><img src="/assets/Logo Redondo.png"
+                        alt="círculo con fondo negro y sólo líneas amarillas dibujando un círculo y dentro la silueta de un pato"
+                        class="logo"></a></li>
+            <li class="navigation-bar__link"><a href="/pages/catalogo.html" class="internal-link">Catálogo</a></li>
+            <li class="navigation-bar__link"><a href="/pages/formulario.html" class="internal-link">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="contact">
+            <h1 class="contact__title">¿Tienes alguna duda <em>cuac-tástica?</em></h1>
+            <p class="contact__description">Estamos aquí para ayudarte con cualquier consulta sobre
+                tu pedido o nuestros productos.</p>
+            <div class="contact__content">
+                <form class="contact-content__form">
+                    <label class="form__label" for="name">Nombre completo</label>
+                    <input class="form__value" type="text" id="name" name="name" placeholder="Tu nombre...">
+
+                    <label class="form__label" for="email">Email de contacto</label>
+                    <input class="form__value" type="email" id="email" name="email" placeholder="hola@ejemplo.com">
+
+                    <label class="form__label" for="message">¿Cómo podemos ayudarte?</label>
+                    <textarea class="form__textarea" id="message" name="message"
+                        placeholder="Cuéntanos más sobre tu consulta"></textarea>
+
+                    <button class="form__button" type="submit">Enviar Cuac-Mensaje</button>
+                </form>
+                <div class="contact-content__info">
+                    <iframe class="contact-info__map"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Passeig%20de%20Lloren%C3%A7%20Serra,%2064,%2008921%20Santa%20Coloma%20de%20Gramenet,%20Barcelona+(la%20ciba)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        allowfullscreen="" loading="lazy">
+                    </iframe>
+                    <div class="contact-info__details">
+                        <ul class="contact-info-details__list">
+                            <li class="list"><img class="list__image" src="../assets/icons/icons-phone.png" alt="icono de teléfono">
+                                <div class="list__content"><span class="list-content__title">Llámanos</span><span
+                                        class="list-content__subtitle">+34 900 123 456</span></div>
+                            </li>
+                            <li class="list"><img class="list__image" src="../assets/icons/icons-mail.png" alt="icono de correo">
+                                <div class="list__content"><span class="list-content__title">Escríbenos</span><span
+                                        class="list-content__subtitle">hola@duckstore.es</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__links">
+            <a href="#" class="footer__icon-link"><img src="/assets/icons/icons-facebook-50.png"
+                    alt="icono de facebook cuadrado" class="socialnet-icon"></a>
+            <a href="#" class="footer__icon-link"><img src="/assets/icons/icons-instagram-50.png"
+                    alt="icono de instagram cuadrado" class="socialnet-icon"></a>
+            <a href="#" class="footer__icon-link"><img src="/assets/icons/icons-linkedin-50.png"
+                    alt="icono de linkedin cuadrado" class="socialnet-icon"></a>
+        </div>
+        <p class="footer__copyright">@2024 DUCKSTORE. SOPHISTICATED PLAY.</p>
+    </footer>
+</body>
+
+</html>
