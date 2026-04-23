@@ -23,9 +23,23 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'MiFuente';
+  src: url('../assets/fonts/mifuente.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MiFuente', sans-serif;
+}
+
 body {
   color: var(--color-text);
   line-height: 1.7;
+  body {
+  font-family: 'Playfair Display', serif;
+}
 }
 
 /* =============================================
@@ -37,20 +51,28 @@ p, li, span, a, label, button {
 }
 
 h1 {
-  font-size: clamp(2rem, 4vw, 3rem) 80px; 
-  line-height: 1.2;
+  display: flex;
   flex-direction: column;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.15;
   margin-bottom: 1.25rem;
   font-family: "Plus Jakarta Sans", sans-serif;
-  color: #221b00;
+}
+
+h1 .h1-top {
+  color: var(--color-green);
+}
+
+h1 .h1-flotar {
+  color: var(--color-red);
 }
 
 h2 {
-  font-size: clamp(1.5rem, 3vw, 2.25rem) 40px; 
+  font-size: clamp(1.2rem, 2.5vw, 1.75rem);
   line-height: 1.3;
   font-family: "Plus Jakarta Sans", sans-serif;
   color: #221b00;
-    
+  font-style: italic;
 }
 
 /* =============================================
