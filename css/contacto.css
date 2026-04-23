@@ -1,0 +1,77 @@
+.contact {
+    max-width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #776300;
+    justify-content: center;
+}
+
+.contact__title,
+.contact__description {
+    width: 100%;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 60px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #221b00;
+}
+
+.contact__title>em {
+    color: #776300;
+}
+
+.contact__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    width: 100%;
+}
+
+.contact-content__form,
+.contact-content__info {
+    width: 50%;
+    margin-left: 0.5rem;
+    background-color: #FFD709;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.contact-content__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.form__label {
+    font-size: 12px;
+}
+
+.form__value,
+.form__textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.form__textarea {
+    height: 120px;
+    resize: vertical;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #776300;
+}
+
+.form__button {
+    padding: 0.8rem;
+    background-color: #5B4B00;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
