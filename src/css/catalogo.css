@@ -69,6 +69,7 @@ main {
 }
 
 @media (max-width: 530px) {
+
     .catalogo__products,
     .catalogo__products--highlighted {
         display: flex;
@@ -91,15 +92,14 @@ main {
 .foto-producto {
     width: 10rem;
     height: auto;
-}
-
-.foto-producto-recommended {
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 
 /* FONTS */
 .catologo-texts__title,
-.item-name, .item-name:visited, .catalogo-item__enlace-detalle:active, 
+.item-name,
+.item-name:visited,
+.catalogo-item__enlace-detalle:active,
 .catalogo-item__enlace-detalle:visited {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
