@@ -1,0 +1,235 @@
+[
+  {
+    "id": 1,
+    "name": "Pato Clásico",
+    "category": "clásicos",
+    "description": "El patito de goma de toda la vida. Suave, resistente y con su característico pico naranja. Ideal para los más pequeños de la casa.",
+    "image": "/src/assets/images/pato-clasico-amarillo.png",
+    "price": 4.99,
+    "inStock": true,
+    "recommended": true,
+    "dimensions": {
+      "height": "8 cm",
+      "width": "7 cm",
+      "length": "10 cm"
+    },
+    "materials": [
+      "goma natural",
+      "colorante no tóxico"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pato Rubí",
+    "category": "coleccionistas",
+    "description": "Intenso color rojo carmín con acabado satinado. Un patito con carácter y mucha presencia. Edición especial para los coleccionistas más apasionados.",
+    "image": "/src/assets/images/pato-rubi.png",
+    "price": 12.99,
+    "inStock": true,
+    "recommended": false,
+    "dimensions": {
+      "height": "8 cm",
+      "width": "7 cm",
+      "length": "10 cm"
+    },
+    "materials": [
+      "goma sintética",
+      "pigmento metalizado no tóxico"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pato Pirata",
+    "category": "temáticos",
+    "description": "Aventurero de los siete mares. Lleva parche en el ojo y sombrero de pirata. El favorito de los niños más traviesos.",
+    "image": "/src/assets/images/pato-pirata.png",
+    "price": 7.99,
+    "inStock": true,
+    "recommended": false,
+    "dimensions": {
+      "height": "9 cm",
+      "width": "7 cm",
+      "length": "11 cm"
+    },
+    "materials": [
+      "goma sintética",
+      "pintura acrílica no tóxica",
+      "PVC"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pato Unicornio",
+    "category": "fantásticos",
+    "description": "Patito mágico con cuerno iridiscente y melena de colores. Brilla suavemente en la oscuridad. Para los amantes de lo fantástico.",
+    "image": "/src/assets/images/pato-unicornio.png",
+    "price": 11.99,
+    "inStock": true,
+    "recommended": true,
+    "dimensions": {
+      "height": "10 cm",
+      "width": "8 cm",
+      "length": "12 cm"
+    },
+    "materials": [
+      "goma sintética",
+      "pigmento fluorescente no tóxico",
+      "cuerno de PVC"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pato Turquesa",
+    "category": "clásicos",
+    "description": "Brillante, alegre y con mucha personalidad. Su color turquesa lo convierte en el más colorido del estante. Ideal como regalo o para darle un toque de color a tu baño.",
+    "image": "/src/assets/images/pato-turquesa.png",
+    "price": 5.99,
+    "inStock": true,
+    "recommended": false,
+    "dimensions": {
+      "height": "8 cm",
+      "width": "7 cm",
+      "length": "10 cm"
+    },
+    "materials": [
+      "goma sintética",
+      "colorante no tóxico"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pato Lowpoly",
+    "category": "coleccionistas",
+    "description": "Diseño geométrico de inspiración digital. Sus facetas poligonales le dan un aspecto único entre el mundo físico y el virtual. Una pieza de diseño tanto para la bañera como para la estantería.",
+    "image": "/src/assets/images/pato-lowpoly.png",
+    "price": 14.99,
+    "inStock": true,
+    "recommended": false,
+    "dimensions": {
+      "height": "10 cm",
+      "width": "8 cm",
+      "length": "12 cm"
+    },
+    "materials": [
+      "PVC rígido",
+      "pintura acrílica no tóxica"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Pato Chef",
+    "category": "temáticos",
+    "description": "Con su gorro de cocinero y delantal, este patito está listo para los fogones. Regalo perfecto para los apasionados de la cocina.",
+    "image": "/src/assets/images/pato-chef.png",
+    "price": 8.49,
+    "inStock": false,
+    "recommended": true,
+    "dimensions": {
+      "height": "9 cm",
+      "width": "7 cm",
+      "length": "10 cm"
+    },
+    "materials": [
+      "goma natural",
+      "tela de algodón",
+      "pintura acrílica no tóxica"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Pato Dinosaurio",
+    "category": "fantásticos",
+    "description": "Mitad pato, mitad T-Rex. Con escamas verdes y dientes afilados, este patito ruge más de lo que grazna. Para los fans del Jurásico.",
+    "image": "/src/assets/images/pato-dinosaurio.png",
+    "price": 9.99,
+    "inStock": true,
+    "recommended": false,
+    "dimensions": {
+      "height": "10 cm",
+      "width": "8 cm",
+      "length": "13 cm"
+    },
+    "materials": [
+      "goma sintética",
+      "pintura acrílica no tóxica",
+      "PVC"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pato Dark",
+    "category": "clásicos",
+    "description": "La versión oscura del patito de toda la vida. Negro mate con pico naranja, elegante y enigmático. Para los que prefieren el lado más sofisticado de la bañera.",
+    "image": "/src/assets/images/pato-dark.png",
+    "price": 6.99,
+    "inStock": true,
+    "recommended": false,
+    "dimensions": {
+      "height": "8 cm",
+      "width": "7 cm",
+      "length": "10 cm"
+    },
+    "materials": [
+      "goma natural",
+      "colorante no tóxico"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Pato Gigante",
+    "category": "coleccionistas",
+    "description": "La versión XXL del clásico patito amarillo. Imponente en la bañera y aún más en el estante. Un must para coleccionistas.",
+    "image": "/src/assets/images/pato-gigante.png",
+    "price": 24.99,
+    "inStock": true,
+    "recommended": false,
+    "dimensions": {
+      "height": "30 cm",
+      "width": "25 cm",
+      "length": "35 cm"
+    },
+    "materials": [
+      "goma sintética reforzada",
+      "colorante no tóxico"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Pack Familia Patos",
+    "category": "coleccionistas",
+    "description": "El pack perfecto: papá pato, mamá pata y tres patitos. Cinco piezas de diferentes tamaños para toda la familia. Ideal como regalo.",
+    "image": "/src/assets/images/pack-familia-patos.png",
+    "price": 19.99,
+    "inStock": true,
+    "recommended": false,
+    "dimensions": {
+      "height": "5-12 cm",
+      "width": "4-9 cm",
+      "length": "6-14 cm"
+    },
+    "materials": [
+      "goma natural",
+      "colorante no tóxico"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Pato Navideño",
+    "category": "edición limitada",
+    "description": "Con gorro de Papá Noel y bufanda roja, este patito trae la magia de la Navidad a tu bañera. Edición limitada de temporada.",
+    "image": "/src/assets/images/pato-navidad.png",
+    "price": 10.49,
+    "inStock": false,
+    "recommended": false,
+    "dimensions": {
+      "height": "9 cm",
+      "width": "7 cm",
+      "length": "11 cm"
+    },
+    "materials": [
+      "goma natural",
+      "tela de lana",
+      "pintura acrílica no tóxica"
+    ]
+  }
+]

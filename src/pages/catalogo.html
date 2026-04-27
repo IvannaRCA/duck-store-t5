@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="/src/js/duckstoreApp.js" defer></script>
+    <script type="module" src="/src/js/products.js" defer></script>
 </head>
 
 <body>
     <header>
         <ul class="header__navigation-bar">
-            <li class="navigation-bar__link"><a href="/index.html" class="logo-link"><img src="/src/assets/images/logo-redondo.png"
+            <li class="navigation-bar__link"><a href="/index.html" class="logo-link"><img
+                        src="/src/assets/images/logo-redondo.png"
                         alt="círculo con fondo negro y sólo líneas amarillas dibujando un círculo y dentro la silueta de un pato"
                         class="logo"></a></li>
             <li class="navigation-bar__link"><a href="/src/pages/catalogo.html" class="internal-link">Catálogo</a></li>
@@ -29,72 +32,26 @@
         </section>
         <section class="catalogo-content" id="recomendations">
             <h2 class="section-title">RECOMENDADOS</h2>
-            <ul class="catalogo__products catalogo__products--highlighted">
-                <li class="catalogo-products__item">
-                    <a class="catalogo-item__enlace-detalle" href="/src/pages/detalles-producto.html">
-                        <img src="/src/assets/images/img-patito-1.png" alt="patito amarillo" class="foto-producto foto-producto-recommended">
-                        <p class="item-name">Patito Amarillo</p>
-                    </a>
-                    <p class="item-price">24,00€</p>
-                </li>
-                <li class="catalogo-products__item">
-                    <img src="/src/assets/images/img-patito-4.png" alt="patito monocrome gris" class="foto-producto foto-producto-recommended">
-                    <p class="item-name">Monocrome Gris</p>
-                    <p class="item-price">35,00€</p>
-                </li>
-                <li class="catalogo-products__item">
-                    <img src="/src/assets/images/img-patito-6.png" alt="patito mármol ártico" class="foto-producto foto-producto-recommended">
-                    <p class="item-name">Mármol Ártico</p>
-                    <p class="item-price">38,00€</p>
-                </li>
+            <ul class="catalogo__products catalogo__products--highlighted" id="lista-recomendados">
             </ul>
         </section>
     </main>
     <section class="catalogo-content">
-        <ul class="catalogo__products">
-            <li class="catalogo-products__item">
-                <a class="catalogo-item__enlace-detalle" href="/src/pages/detalles-producto.html">
-                    <img src="/src/assets/images/img-patito-1.png" alt="patito amarillo" class="foto-producto">
-                    <p class="item-name">Patito Amarillo</p>
-                </a>
-                <p class="item-price">24,00€</p>
-            </li>
-            <li class="catalogo-products__item">
-                <img src="/src/assets/images/img-patito-2.png" alt="patito edición sombras" class="foto-producto">
-                <p class="item-name">Edición Sombras</p>
-                <p class="item-price">38,00€</p>
-            </li>
-            <li class="catalogo-products__item">
-                <img src="/src/assets/images/img-patito-3.png" alt="patito variante cian" class="foto-producto">
-                <p class="item-name">Patito Variante Cian</p>
-                <p class="item-price">28,00€</p>
-            </li>
-            <li class="catalogo-products__item">
-                <img src="/src/assets/images/img-patito-4.png" alt="patito monocrome gris" class="foto-producto">
-                <p class="item-name">Monocrome Gris</p>
-                <p class="item-price">35,00€</p>
-            </li>
-            <li class="catalogo-products__item">
-                <img src="/src/assets/images/img-patito-5.png" alt="patito espectro magenta" class="foto-producto">
-                <p class="item-name">Espectro Magenta</p>
-                <p class="item-price">42,00€</p>
-            </li>
-            <li class="catalogo-products__item">
-                <img src="/src/assets/images/img-patito-6.png" alt="patito mármol ártico" class="foto-producto">
-                <p class="item-name">Mármol Ártico</p>
-                <p class="item-price">3,00€</p>
-            </li>
+        <ul class="catalogo__products" id="catalogo">
         </ul>
     </section>
     </main>
     <footer>
         <div class="footer__links">
-            <a href="https://www.facebook.com/" target="__blank" class="footer__icon-link"><img src="/src/assets/icons/icons-facebook-50.png"
-                    alt="icono de facebook cuadrado" class="socialnet-icon"></a>
-            <a href="https://www.instagram.com/" target="__blank" class="footer__icon-link"><img src="/src/assets/icons/icons-instagram-50.png"
-                    alt="icono de instagram cuadrado" class="socialnet-icon"></a>
-            <a href="https://es.linkedin.com/" target="__blank" class="footer__icon-link"><img src="/src/assets/icons/icons-linkedin-50.png"
-                    alt="icono de linkedin cuadrado" class="socialnet-icon"></a>
+            <a href="https://www.facebook.com/" target="__blank" class="footer__icon-link"><img
+                    src="/src/assets/icons/icons-facebook-50.png" alt="icono de facebook cuadrado"
+                    class="socialnet-icon"></a>
+            <a href="https://www.instagram.com/" target="__blank" class="footer__icon-link"><img
+                    src="/src/assets/icons/icons-instagram-50.png" alt="icono de instagram cuadrado"
+                    class="socialnet-icon"></a>
+            <a href="https://es.linkedin.com/" target="__blank" class="footer__icon-link"><img
+                    src="/src/assets/icons/icons-linkedin-50.png" alt="icono de linkedin cuadrado"
+                    class="socialnet-icon"></a>
         </div>
         <p class="footer__copyright">@2024 DUCKSTORE. SOPHISTICATED PLAY.</p>
     </footer>
