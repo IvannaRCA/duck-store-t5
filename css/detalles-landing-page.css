@@ -104,8 +104,8 @@ h2 {
   min-width: 0;
 }
 
-.hero .product-info p {
-     font-family: "Plus Jakarta Sans", sans-serif;
+.hero {
+    font-family: "Plus Jakarta Sans", sans-serif;
     color: #221b00;
 }
 
