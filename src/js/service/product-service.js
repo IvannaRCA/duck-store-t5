@@ -16,4 +16,16 @@ export async function getProducts() {
     }
 }
 
+export async function getProductById(productId) {
+    try {
+        const products = await getProducts();
+        const item = products.filter(p => p.id == productId)[0];
+        return item;
+
+    } catch (error) {
+        console.error('getProductosById falló:', error.message);
+        return [];
+    }
+}
+
 

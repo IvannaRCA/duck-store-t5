@@ -9,14 +9,15 @@
     "inStock": true,
     "recommended": true,
     "dimensions": {
-      "height": "8 cm",
-      "width": "7 cm",
-      "length": "10 cm"
+      "height": "8cm",
+      "width": "7cm",
+      "length": "10cm"
     },
     "materials": [
       "goma natural",
       "colorante no tóxico"
-    ]
+    ],
+    "weight": 50
   },
   {
     "id": 2,
@@ -28,14 +29,15 @@
     "inStock": true,
     "recommended": false,
     "dimensions": {
-      "height": "8 cm",
-      "width": "7 cm",
-      "length": "10 cm"
+      "height": "8cm",
+      "width": "7cm",
+      "length": "10cm"
     },
     "materials": [
       "goma sintética",
       "pigmento metalizado no tóxico"
-    ]
+    ],
+    "weight": 55
   },
   {
     "id": 3,
@@ -47,15 +49,16 @@
     "inStock": true,
     "recommended": false,
     "dimensions": {
-      "height": "9 cm",
-      "width": "7 cm",
-      "length": "11 cm"
+      "height": "9cm",
+      "width": "7cm",
+      "length": "11cm"
     },
     "materials": [
       "goma sintética",
       "pintura acrílica no tóxica",
       "PVC"
-    ]
+    ],
+    "weight": 65
   },
   {
     "id": 4,
@@ -67,15 +70,16 @@
     "inStock": true,
     "recommended": true,
     "dimensions": {
-      "height": "10 cm",
-      "width": "8 cm",
-      "length": "12 cm"
+      "height": "10cm",
+      "width": "8cm",
+      "length": "12cm"
     },
     "materials": [
       "goma sintética",
-      "pigmento fluorescente no tóxico",
+      "pigmento fluorescente",
       "cuerno de PVC"
-    ]
+    ],
+    "weight": 70
   },
   {
     "id": 5,
@@ -87,14 +91,15 @@
     "inStock": true,
     "recommended": false,
     "dimensions": {
-      "height": "8 cm",
-      "width": "7 cm",
-      "length": "10 cm"
+      "height": "8cm",
+      "width": "7cm",
+      "length": "10cm"
     },
     "materials": [
       "goma sintética",
       "colorante no tóxico"
-    ]
+    ],
+    "weight": 50
   },
   {
     "id": 6,
@@ -106,14 +111,15 @@
     "inStock": true,
     "recommended": false,
     "dimensions": {
-      "height": "10 cm",
-      "width": "8 cm",
-      "length": "12 cm"
+      "height": "10cm",
+      "width": "8cm",
+      "length": "12cm"
     },
     "materials": [
       "PVC rígido",
       "pintura acrílica no tóxica"
-    ]
+    ],
+    "weight": 85
   },
   {
     "id": 7,
@@ -123,17 +129,18 @@
     "image": "/src/assets/images/pato-chef.png",
     "price": 8.49,
     "inStock": false,
-    "recommended": true,
+    "recommended": false,
     "dimensions": {
-      "height": "9 cm",
-      "width": "7 cm",
-      "length": "10 cm"
+      "height": "9cm",
+      "width": "7cm",
+      "length": "10cm"
     },
     "materials": [
       "goma natural",
       "tela de algodón",
       "pintura acrílica no tóxica"
-    ]
+    ],
+    "weight": 60
   },
   {
     "id": 8,
@@ -143,17 +150,18 @@
     "image": "/src/assets/images/pato-dinosaurio.png",
     "price": 9.99,
     "inStock": true,
-    "recommended": false,
+    "recommended": true,
     "dimensions": {
-      "height": "10 cm",
-      "width": "8 cm",
-      "length": "13 cm"
+      "height": "10cm",
+      "width": "8cm",
+      "length": "13cm"
     },
     "materials": [
       "goma sintética",
       "pintura acrílica no tóxica",
       "PVC"
-    ]
+    ],
+    "weight": 75
   },
   {
     "id": 9,
@@ -165,14 +173,15 @@
     "inStock": true,
     "recommended": false,
     "dimensions": {
-      "height": "8 cm",
-      "width": "7 cm",
-      "length": "10 cm"
+      "height": "8cm",
+      "width": "7cm",
+      "length": "10cm"
     },
     "materials": [
       "goma natural",
       "colorante no tóxico"
-    ]
+    ],
+    "weight": 50
   },
   {
     "id": 10,
@@ -184,14 +193,15 @@
     "inStock": true,
     "recommended": false,
     "dimensions": {
-      "height": "30 cm",
-      "width": "25 cm",
-      "length": "35 cm"
+      "height": "30cm",
+      "width": "25cm",
+      "length": "35cm"
     },
     "materials": [
       "goma sintética reforzada",
       "colorante no tóxico"
-    ]
+    ],
+    "weight": 850
   },
   {
     "id": 11,
@@ -203,14 +213,15 @@
     "inStock": true,
     "recommended": false,
     "dimensions": {
-      "height": "5-12 cm",
-      "width": "4-9 cm",
-      "length": "6-14 cm"
+      "height": "5-12cm",
+      "width": "4-9cm",
+      "length": "6-14cm"
     },
     "materials": [
       "goma natural",
       "colorante no tóxico"
-    ]
+    ],
+    "weight": 280
   },
   {
     "id": 12,
@@ -222,14 +233,15 @@
     "inStock": false,
     "recommended": false,
     "dimensions": {
-      "height": "9 cm",
-      "width": "7 cm",
-      "length": "11 cm"
+      "height": "9cm",
+      "width": "7cm",
+      "length": "11cm"
     },
     "materials": [
       "goma natural",
       "tela de lana",
       "pintura acrílica no tóxica"
-    ]
+    ],
+    "weight": 65
   }
 ]
