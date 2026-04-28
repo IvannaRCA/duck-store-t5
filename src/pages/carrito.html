@@ -18,8 +18,55 @@
             <li class="navigation-bar__link"><a href="/src/pages/contacto.html" class="internal-link">Contacto</a></li>
         </ul>
     </header>
-    <main>
+    <main class="carrito">
+        <div class="carrito__header">
+            <h1 class="header__title">Tu Carrito</h1>
+            <p class="header__subtitle">Piezas exclusivas seleccionadas para tu colección.
+                La elegancia flotante en cada detalle.</p>
+        </div>
+        <section class="carrito__subtotal">
+            <article id="subtotal__ducks" class="carrito-subtotal__ducks">
+                <div class="duck">
+                    <img class="duck__image" src="../assets/img-patito-1.png" alt="">
+                    <div class="duck__info">
+                        <div class="duck-info__header">
+                            <div class="duck__info header">
+                            <h3 class=" duck-info__title">Patito Amarillo</h3>
+                                <p class="duck-info__category">Categoria normal</p>
+                            </div>
+                            <div class="duck-info__action">
+                                <button class="action__delete">🗑</button>
+                            </div>
+                        </div>
+                        <div class="duck-info__quantity">
+                            <div class="quantity">
+                                <button class="quantity__btn">−</button>
+                                <span class="quantity__value">1</span>
+                                <button class="quantity__btn">+</button>
+                            </div>
+                            <div class="duck-info__action">
+                                <span class="duck__price">24.00€</span>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+                </div>
+            </article>
+            <div class="carrito-subtotal__price">
+                <p class="subtotal__title">Resumen</p>
+                <ul id="subtotal__list">
+                    <li class="subtotal-list__element">
+                        <span class="list__name">Patito Amarillo x1</span>
+                        <span class="list__price">24€</span>
+                    </li>
+                </ul>
+                <p class="subtotal__total">Total:<span class="total__price">24€</span></p>
+                <button class="subtotal__buy"><a href="">Finalizar Compra</a></button>
+                <p class="subtotal__secure">Pagos seguros procesados por DuckPay</p>
+                <a class="subtotal__return" href="">Seguir comprando</a>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="footer__links">
