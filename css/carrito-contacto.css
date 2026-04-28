@@ -1,0 +1,17 @@
+/* Asegurar que el contenedor del carrito esté bien posicionado */
+#LogoCarrito {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Suaviza el efecto */
+}
+
+/* El efecto visual al pasar el ratón */
+#LogoCarrito:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+}
+
+/* Asegurar que la imagen no sea gigante */
+#LogoCarrito img {
+    width: 30px; 
+    height: auto;
+}
