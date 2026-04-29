@@ -1,24 +1,36 @@
 import { getProducts } from '../service/product-service.js';
 import { generarItemCatalogo } from '../template/item-catalogo-template.js';
+import { renderFilters, filterListener } from './filter-render.js'
+import { filterProducts } from '../service/filter-service.js'
 
-//conecta el array de productos obtenido de leer el json con el DOM
 export async function renderCatalogo() {
-  const container_nodes = document.querySelector('#catalogo');
+  let selectedFilter = "Todos";
   const products = await getProducts();
 
-  products.forEach(product => {
-    container_nodes.innerHTML += generarItemCatalogo(product);
+  await renderFilters(products);
+  await renderCatalogoProducts(products);
+
+  filterListener((selectedFilter) => {
+    console.log(selectedFilter);
+    const filteredProducts = filterProducts(products, selectedFilter);
+    console.log(filteredProducts);
+    renderCatalogoProducts(filteredProducts);
   });
+
+}
+
+//conecta el array de productos obtenido de leer el json con el DOM
+async function renderCatalogoProducts(products) {
+  console.log(products);
+  const container_nodes = document.querySelector('#catalogo');
+  container_nodes.innerHTML = products.map(generarItemCatalogo).join("");
 }
 
 export async function renderRecommendedList() {
   const container_nodes = document.querySelector('#lista-recomendados');
-  console.log(container_nodes);
-  const products = await getProducts();
-  const selection = Array.from(products).filter(product => product.recommended === true);
 
-  selection.forEach(item => {
-    container_nodes.innerHTML += generarItemCatalogo(item);
-  })
+  const products = await getProducts();
+
+  container_nodes.innerHTML = products.filter(product => product.recommended == true).map(generarItemCatalogo).join("");
 }
 
