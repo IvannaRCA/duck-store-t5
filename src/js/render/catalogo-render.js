@@ -1,5 +1,6 @@
 import { getProducts } from '../service/product-service.js';
 import { generarItemCatalogo } from '../template/item-catalogo-template.js';
+import { cartListeners } from '../service/cart-service.js';
 
 //conecta el array de productos obtenido de leer el json con el DOM
 export async function renderCatalogo() {
@@ -9,6 +10,7 @@ export async function renderCatalogo() {
   products.forEach(product => {
     container_nodes.innerHTML += generarItemCatalogo(product);
   });
+  cartListeners();
 }
 
 export async function renderRecommendedList() {
