@@ -11,11 +11,14 @@
 <body>
     <header>
         <ul class="header__navigation-bar">
-            <li class="navigation-bar__link"><a href="/index.html" class="logo-link"><img src="/src/assets/images/logo-redondo.png"
+            <li class="navigation-bar__link"><a href="/index.html" class="logo-link"><img
+                        src="/src/assets/images/logo-redondo.png"
                         alt="círculo con fondo negro y sólo líneas amarillas dibujando un círculo y dentro la silueta de un pato"
                         class="logo"></a></li>
             <li class="navigation-bar__link"><a href="/src/pages/catalogo.html" class="internal-link">Catálogo</a></li>
             <li class="navigation-bar__link"><a href="/src/pages/contacto.html" class="internal-link">Contacto</a></li>
+            <li class="navigation-bar__link"><a href="/src/pages/carrito.html" class="internal-link"
+                    id="LogoCarrito"><img src="/src/assets/icons/icons-carrito.png" alt="Carrito de compras"></a></li>
         </ul>
     </header>
     <main class="carrito">
@@ -27,11 +30,11 @@
         <section class="carrito__subtotal">
             <article id="subtotal__ducks" class="carrito-subtotal__ducks">
                 <div class="duck">
-                    <img class="duck__image" src="../assets/img-patito-1.png" alt="">
+                    <img class="duck__image" src="/src/assets/images/img-patito-1.png" alt="">
                     <div class="duck__info">
                         <div class="duck-info__header">
                             <div class="duck__info header">
-                            <h3 class=" duck-info__title">Patito Amarillo</h3>
+                                <h3 class=" duck-info__title">Patito Amarillo</h3>
                                 <p class="duck-info__category">Categoria normal</p>
                             </div>
                             <div class="duck-info__action">
@@ -48,9 +51,7 @@
                                 <span class="duck__price">24.00€</span>
                             </div>
                         </div>
-
                     </div>
-                </div>
                 </div>
             </article>
             <div class="carrito-subtotal__price">
@@ -62,9 +63,9 @@
                     </li>
                 </ul>
                 <p class="subtotal__total">Total:<span class="total__price">24€</span></p>
-                <button class="subtotal__buy"><a href="">Finalizar Compra</a></button>
+                <button class="subtotal__buy"><a href="/src/pages/pago.html">Finalizar Compra</a></button>
                 <p class="subtotal__secure">Pagos seguros procesados por DuckPay</p>
-                <a class="subtotal__return" href="">Seguir comprando</a>
+                <a class="subtotal__return" href="/src/pages/catalogo.html">Seguir comprando</a>
             </div>
         </section>
     </main>
