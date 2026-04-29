@@ -1,5 +1,6 @@
 import { renderCatalogo, renderRecommendedList } from './render/catalogo-render.js';
 import { renderDetalle } from './render/detalle-render.js'
+import { filterProducts } from './service/filter-service.js';
 
 /* Se tiene que renderizar o catálogo o detalle u otros según la página que queramos cargar,
    la identificamos por un id de un elemento que solo exista en esa página (#id).
@@ -8,8 +9,9 @@ import { renderDetalle } from './render/detalle-render.js'
 */
 document.addEventListener('DOMContentLoaded', async () => {
   if (document.querySelector('#catalogo')) {
-    await renderCatalogo();
+
     await renderRecommendedList();
+    await renderCatalogo();
   }
   if (document.querySelector('#detalle')) {
     await renderDetalle();
