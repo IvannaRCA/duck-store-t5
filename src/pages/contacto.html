@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/duckstoreApp.js" defer></script>
 </head>
 
 <body>
@@ -25,8 +26,8 @@
             <p class="contact__description">Estamos aquí para ayudarte con cualquier consulta sobre
                 tu pedido o nuestros productos.</p>
             <div class="contact__content">
-                <form class="contact-content__form" action="mailto:hola@duckstore.es" method="post"
-                    enctype="text/plain">
+                 <form class="contact-content__form" action="mailto:hola@duckstore.es" method="post"
+                    enctype="text/plain" id="contact-form">
                     <label class="form__label" for="name">Nombre completo</label>
                     <input class="form__value" type="text" id="name" name="name" placeholder="Tu nombre...">
 
