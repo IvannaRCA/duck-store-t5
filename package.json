@@ -15,7 +15,7 @@
   "type": "module",
   "main": "duckstoreApp.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
     "jest": "^30.3.0"

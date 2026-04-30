@@ -41,12 +41,12 @@ export function generarItemDetalle(product) {
         return "Sin Stock";
 }
 
- function getDimensions(dimensions) {
+ export function getDimensions(dimensions) {
     return `${dimensions.height} x ${dimensions.width} x ${dimensions.length}`
 
 }
 
- function getMaterials(materials) {
+  export function getMaterials(materials) {
     let materialsList = "";
     materials.forEach(element => {
         element = element.charAt(0).toUpperCase() + element.slice(1);
