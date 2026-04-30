@@ -95,3 +95,13 @@ async function removeItem(id) {
     saveCart(cart);
     await renderCart();
 }
+
+export function calculateSubtotal(price, quantity) {
+    const subtotal = price * quantity;
+    return subtotal.toFixed(2);
+}
+
+export function calculateTotal() {
+    const cart = getCart();
+    return `${cart.reduce((acc, product) => acc + (product.price * product.quantity), 0).toFixed(2)}€`;
+}
