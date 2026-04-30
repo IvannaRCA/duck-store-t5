@@ -1,5 +1,6 @@
 import { getProductById } from '../service/product-service.js';
 import { generarItemDetalle } from '../template/item-detalle-template.js'
+import { cartListeners } from '../service/cart-service.js';
 
 export async function renderDetalle() {
     // 1. Obtener el id de la URL
@@ -22,4 +23,5 @@ export async function renderDetalle() {
     const container_nodes = document.querySelector('#detalle');
 
     container_nodes.innerHTML = generarItemDetalle(product);
+    cartListeners();
 }
