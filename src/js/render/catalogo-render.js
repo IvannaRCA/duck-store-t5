@@ -12,9 +12,7 @@ export async function renderCatalogo() {
   await renderCatalogoProducts(products);
 
   filterListener((selectedFilter) => {
-    console.log(selectedFilter);
     const filteredProducts = filterProducts(products, selectedFilter);
-    console.log(filteredProducts);
     renderCatalogoProducts(filteredProducts);
   });
 
@@ -22,7 +20,6 @@ export async function renderCatalogo() {
 
 //conecta el array de productos obtenido de leer el json con el DOM
 async function renderCatalogoProducts(products) {
-  console.log(products);
   const container_nodes = document.querySelector('#catalogo');
   container_nodes.innerHTML = products.map(generarItemCatalogo).join("");
   cartListeners();

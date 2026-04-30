@@ -6,7 +6,8 @@ export function generarItemCarrito(product) {
             <div class="duck-info__header">
                 <div class="duck__info header">
                     <h3 class="duck-info__title">${product.name}</h3>
-                    <p class="duck-info__category">${product.category}</p>
+                    <p class="duck-info__category">${mapToUpperCase(product.category)}</p>
+                    <p>${product.price}€/ud</p>
                 </div>
                 <div class="duck-info__action">
                     <button id="btn-delete-${product.id}" class="action__delete">🗑</button>
@@ -19,10 +20,18 @@ export function generarItemCarrito(product) {
                     <button id="btn-increase-${product.id}" class="quantity__btn">+</button>
                 </div>
                 <div class="duck-info__action">
-                    <span class="duck__price">${product.price}€</span>
+                    <span class="duck__price">${getItemSubtotal(product.price, product.quantity)}€</span>
                 </div>
             </div>
         </div>
     </article>
     `;
+}
+
+function mapToUpperCase(text) {
+    return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+function getItemSubtotal(price, quantity) {
+    return price * quantity;
 }

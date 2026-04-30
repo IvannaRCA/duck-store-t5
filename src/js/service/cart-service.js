@@ -20,8 +20,6 @@ function saveCart(cart) {
 
 export async function addToCart(id) {
     const cart = getCart();
-    console.log("cart:", cart);
-    console.log("es array?:", Array.isArray(cart));
     const existingProduct = cart.find(product => product.id === id);
 
     if (!existingProduct) {

@@ -6,7 +6,6 @@ export async function renderCart() {
     const container = document.querySelector('#subtotal__ducks');
     container.innerHTML = "";
     if (cart.length === 0) {
-        console.log("no imprime p");
         container.innerHTML = `<p>El carrito está vacío.</p>`;
         return;
     }

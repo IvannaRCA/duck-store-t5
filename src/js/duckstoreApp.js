@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     await renderDetalle();
   }
   if (document.querySelector('#subtotal__ducks')) {
-    console.log("DOM render carrito");
     await renderCart();
   }
 });
