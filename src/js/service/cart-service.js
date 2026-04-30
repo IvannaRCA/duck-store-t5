@@ -41,6 +41,7 @@ export function cartListeners() {
             e.preventDefault();
             const id = btn.id.replace("btn-cart-", "");
             addToCart(Number(id));
+            alert("¡Producto añadido al carrito! 🛒")
         });
     });
 }
