@@ -1,3 +1,5 @@
+import { calculateSubtotal } from "../service/cart-service.js";
+
 export function generarItemCarrito(product) {
     return `
     <article class="duck">
@@ -20,7 +22,7 @@ export function generarItemCarrito(product) {
                     <button id="btn-increase-${product.id}" class="quantity__btn">+</button>
                 </div>
                 <div class="duck-info__action">
-                    <span class="duck__price">${getItemSubtotal(product.price, product.quantity)}€</span>
+                    <span class="duck__price">${calculateSubtotal(product.price, product.quantity)}€</span>
                 </div>
             </div>
         </div>
@@ -30,8 +32,4 @@ export function generarItemCarrito(product) {
 
 function mapToUpperCase(text) {
     return text.charAt(0).toUpperCase() + text.slice(1);
-}
-
-function getItemSubtotal(price, quantity) {
-    return price * quantity;
 }
