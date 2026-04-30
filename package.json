@@ -1,0 +1,23 @@
+{
+  "name": "duck-store-t5",
+  "version": "1.0.0",
+  "description": "Duck Store e-commerce",
+  "homepage": "https://github.com/IvannaRCA/duck-store-t5#readme",
+  "bugs": {
+    "url": "https://github.com/IvannaRCA/duck-store-t5/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvannaRCA/duck-store-t5.git"
+  },
+  "license": "ISC",
+  "author": "FemCoders -Team5- Ivanna,Johanna,Laura",
+  "type": "module",
+  "main": "duckstoreApp.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}

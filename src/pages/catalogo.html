@@ -4,13 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duck Store</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <title>Catálogo DuckStore</title>
+    <link rel="stylesheet" href="/src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect"
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+    <script type="module" src="/src/js/duckstoreApp.js" defer></script>
 </head>
 
 <body>
@@ -22,38 +20,31 @@
                         class="logo"></a></li>
             <li class="navigation-bar__link"><a href="/src/pages/catalogo.html" class="internal-link">Catálogo</a></li>
             <li class="navigation-bar__link"><a href="/src/pages/contacto.html" class="internal-link">Contacto</a></li>
-            <li class="navigation-bar__link"><a href="/src/pages/carrito.html" class="internal-link"
-                    id="LogoCarrito"><img src="/src/assets/icons/icons-carrito.png" alt="Carrito de compras"></a></li>
+               <li class="navigation-bar__link"><a href="/src/pages/carrito.html" class="btn-carrito"><img src="/src/assets/icons/icons-carrito.png" alt="Carrito de compras"></a></li>
         </ul>
     </header>
-
     <main>
-        <section class="hero">
-            <img src="../src/assets/images/duck-landingpage.png" alt="product-image" class="responsive-img">
-            <article class="product-info">
-                <h1>
-                    <span class="h1-top">El arte de</span>
-                    <span class="h1-flotar">Flotar</span>
-                </h1>
-                <p class="text-descript">DuckStore redefine la alegría cotidiana.
-                    Nuestra misión es infundir diseño premium
-                    y sofisticación en cada rincón,
-                    transformando simples bañeras en
-                    galerías de arte personal a través de
-                    coleccionables de alta gama curados
-                    meticulosamente.</p>
-            </article>
+        <section class="catalogo-content__text-section">
+            <h1 class="catologo-texts__title">La Colección de Precisión</h1>
+            <p class="catalogo-texts__description">Una colección ténica donde la forma encuentra su función más lúdica.
+                Cada pieza de nuestra colección ha sido seleccionada por su integridad geométrica y su capacidad de
+                transformar lo cotidicano en un objeto de estudio estético.</p>
         </section>
+        <section class="catalogo-content" id="recomendations">
+            <h2 class="section-title">RECOMENDADOS</h2>
+            <ul class="catalogo__products catalogo__products--highlighted" id="lista-recomendados">
+                
+            </ul>
+        </section>
+        <section class="filtros" >
+            <button class="btn-filtro" data-category="Todos">Todos</button>
+            <div id="filters-bar">
 
-        <section class="cta-membership">
-            <h2>Únete al
-                Gremio Boyante</h2>
-            <p>
-                Sea el primero en acceder a nuestras ediciones ultralimitadas y reciba
-                invitaciones exclusivas a lanzamientos de diseñadores internacionales.
-            </p>
-            <a href="./src/pages/catalogo.html" class="btn-gallery">Ver Catálogo</a>
-
+            </div>
+        </section>
+        <section class="catalogo-content">
+            <ul class="catalogo__products" id="catalogo">
+            </ul>
         </section>
     </main>
     <footer>

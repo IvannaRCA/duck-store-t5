@@ -4,13 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duck Store</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect"
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+    <title>Carrito de compra</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/duckstoreApp.js" defer></script>
 </head>
 
 <body>
@@ -26,34 +22,26 @@
                     id="LogoCarrito"><img src="/src/assets/icons/icons-carrito.png" alt="Carrito de compras"></a></li>
         </ul>
     </header>
+    <main class="carrito">
+        <div class="carrito__header">
+            <h1 class="header__title">Tu Carrito</h1>
+            <p class="header__subtitle">Piezas exclusivas seleccionadas para tu colección.
+                La elegancia flotante en cada detalle.</p>
+        </div>
+        <section class="carrito__subtotal">
+            <div id="subtotal__ducks" class="carrito-subtotal__ducks">
 
-    <main>
-        <section class="hero">
-            <img src="../src/assets/images/duck-landingpage.png" alt="product-image" class="responsive-img">
-            <article class="product-info">
-                <h1>
-                    <span class="h1-top">El arte de</span>
-                    <span class="h1-flotar">Flotar</span>
-                </h1>
-                <p class="text-descript">DuckStore redefine la alegría cotidiana.
-                    Nuestra misión es infundir diseño premium
-                    y sofisticación en cada rincón,
-                    transformando simples bañeras en
-                    galerías de arte personal a través de
-                    coleccionables de alta gama curados
-                    meticulosamente.</p>
-            </article>
-        </section>
-
-        <section class="cta-membership">
-            <h2>Únete al
-                Gremio Boyante</h2>
-            <p>
-                Sea el primero en acceder a nuestras ediciones ultralimitadas y reciba
-                invitaciones exclusivas a lanzamientos de diseñadores internacionales.
-            </p>
-            <a href="./src/pages/catalogo.html" class="btn-gallery">Ver Catálogo</a>
-
+            </div>
+            <div class="carrito-subtotal__price">
+                <p class="subtotal__title">Resumen</p>
+                <ul id="subtotal__prices">
+                    
+                </ul>
+                <p class="subtotal__total">Total:<span id="total__price" class="total__price"></span></p>
+                <button class="subtotal__buy"><a id="finish__buy" href="/src/pages/pago.html">Finalizar Compra</a></button>
+                <p class="subtotal__secure">Pagos seguros procesados por DuckPay</p>
+                <a class="subtotal__return" href="/src/pages/catalogo.html">Seguir comprando</a>
+            </div>
         </section>
     </main>
     <footer>
