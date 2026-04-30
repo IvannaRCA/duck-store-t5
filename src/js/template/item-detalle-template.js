@@ -25,26 +25,26 @@ export function generarItemDetalle(product) {
     </div>`;
 }
 
-function getStockImage(product) {
+ function getStockImage(product) {
     if (product.inStock)
         return "/src/assets/images/stock-advise.png";
     else
         return "/src/assets/images/no-stock-advise.png";
 }
 
-function getStockAltImg(product) {
+ function getStockAltImg(product) {
     if (product.inStock)
         return "En Stock";
     else
         return "Sin Stock";
 }
 
-function getDimensions(dimensions) {
+ function getDimensions(dimensions) {
     return `${dimensions.height} x ${dimensions.width} x ${dimensions.length}`
 
 }
 
-function getMaterials(materials) {
+ function getMaterials(materials) {
     let materialsList = "";
     materials.forEach(element => {
         element = element.charAt(0).toUpperCase() + element.slice(1);
