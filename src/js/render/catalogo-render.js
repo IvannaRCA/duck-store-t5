@@ -2,6 +2,7 @@ import { getProducts } from '../service/product-service.js';
 import { generarItemCatalogo } from '../template/item-catalogo-template.js';
 import { renderFilters, filterListener } from './filter-render.js'
 import { filterProducts } from '../service/filter-service.js'
+import { cartListeners } from '../service/cart-service.js';
 
 export async function renderCatalogo() {
   let selectedFilter = "Todos";
@@ -24,6 +25,7 @@ async function renderCatalogoProducts(products) {
   console.log(products);
   const container_nodes = document.querySelector('#catalogo');
   container_nodes.innerHTML = products.map(generarItemCatalogo).join("");
+  cartListeners();
 }
 
 export async function renderRecommendedList() {

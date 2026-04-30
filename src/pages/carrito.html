@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito de compra</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/duckstoreApp.js" defer></script>
 </head>
 
 <body>
@@ -28,32 +29,9 @@
                 La elegancia flotante en cada detalle.</p>
         </div>
         <section class="carrito__subtotal">
-            <article id="subtotal__ducks" class="carrito-subtotal__ducks">
-                <div class="duck">
-                    <img class="duck__image" src="/src/assets/images/img-patito-1.png" alt="">
-                    <div class="duck__info">
-                        <div class="duck-info__header">
-                            <div class="duck__info header">
-                                <h3 class=" duck-info__title">Patito Amarillo</h3>
-                                <p class="duck-info__category">Categoria normal</p>
-                            </div>
-                            <div class="duck-info__action">
-                                <button class="action__delete">🗑</button>
-                            </div>
-                        </div>
-                        <div class="duck-info__quantity">
-                            <div class="quantity">
-                                <button class="quantity__btn">−</button>
-                                <span class="quantity__value">1</span>
-                                <button class="quantity__btn">+</button>
-                            </div>
-                            <div class="duck-info__action">
-                                <span class="duck__price">24.00€</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
+            <div id="subtotal__ducks" class="carrito-subtotal__ducks">
+                
+            </div>
             <div class="carrito-subtotal__price">
                 <p class="subtotal__title">Resumen</p>
                 <ul id="subtotal__list">

@@ -7,7 +7,7 @@ export function generarItemCatalogo(product) {
             <p class="item-name">${product.name}</p>
         </a>
         <p class="item-price">${product.price} €</p>  
-        <a href="/src/pages/carrito.html" class="btn-carrito" >
+        <a href="/src/pages/carrito.html" class="btn-carrito" id="btn-cart-${product.id}">
          <img src="/src/assets/icons/icons-carrito.png" alt="Carrito de compras"></a>
     </li>
     `;

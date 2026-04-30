@@ -1,6 +1,7 @@
 import { renderCatalogo, renderRecommendedList } from './render/catalogo-render.js';
 import { renderDetalle } from './render/detalle-render.js'
 import { filterProducts } from './service/filter-service.js';
+import { renderCart } from './render/carrito-render.js';
 
 /* Se tiene que renderizar o catálogo o detalle u otros según la página que queramos cargar,
    la identificamos por un id de un elemento que solo exista en esa página (#id).
@@ -15,5 +16,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
   if (document.querySelector('#detalle')) {
     await renderDetalle();
+  }
+  if (document.querySelector('#subtotal__ducks')) {
+    console.log("DOM render carrito");
+    await renderCart();
   }
 });
