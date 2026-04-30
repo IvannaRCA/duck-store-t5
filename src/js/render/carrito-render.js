@@ -2,6 +2,7 @@ import { cartItemListeners, getCart } from "../service/cart-service.js";
 import { generarItemCarrito } from "../template/item-carrito-template.js";
 import { generarSubtotalCarrito } from "../template/subtotal-carrito-template.js";
 import { calculateTotal } from "../service/cart-service.js";
+import { buyListener } from "../service/cart-service.js";
 
 export async function renderCart() {
     const cart = getCart();
@@ -25,6 +26,7 @@ export async function renderCart() {
         subtotal.innerHTML += generarSubtotalCarrito(product);
     });
     total.innerHTML += calculateTotal();
-
+    
     cartItemListeners();
+    buyListener();
 }

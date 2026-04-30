@@ -106,3 +106,21 @@ export function calculateTotal() {
     const cart = getCart();
     return `${cart.reduce((acc, product) => acc + (product.price * product.quantity), 0).toFixed(2)}€`;
 }
+
+export function buyListener() {
+    document.querySelector('#finish__buy').addEventListener("click", (e) => {
+        e.preventDefault();
+        buyButton();
+    });
+}
+
+async function buyButton() {
+    const cart = getCart();
+    if (cart.length === 0) {
+        alert("No es posible realizar la compra. Tu carrito está vacío");
+        return;
+    }
+    alert("¡Compra realizada con éxito!");
+    localStorage.removeItem("cart");
+    await renderCart();
+}
