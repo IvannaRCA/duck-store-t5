@@ -7,6 +7,8 @@ export function generarItemDetalle(product) {
     <img class="product-content__stock" src=${getStockImage(product)} alt="${getStockAltImg(product)}">
     <h3 class="product-content__description-tittle">DESCRIPCIÓN</h3>
     <p class="product-content__description">${product.description}</p>
+    <a href="/src/pages/carrito.html" class="btn-carrito" id="btn-cart-${product.id}">
+         <img src="/src/assets/icons/icons-carrito.png" alt="Carrito de compras"></a>
     <div class="product-content__details">
         <ul class="product-content-details__list">
             <li class="details-list__element">
